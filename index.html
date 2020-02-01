@@ -1,7 +1,13 @@
 <!DOCTYPE html>
+<meta charset="utf-8"/>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <body>
+    <label for="prob">Probability (0 &le; 1):</label>
+    <input type="text" id="prob" value=0.0075><br>
+    <label for="samplesize">Sample Size (10 &le; 100,000):</label>
+    <input type="text" id="samplesize" value=10000><br>
+    <button id="calc_button">Calculate!</button>
+  </body>
+  <script src="app.js"></script>
+  <script src='https://unpkg.com/simple-statistics@7.0.6/dist/simple-statistics.min.js'></script>
 </html>
