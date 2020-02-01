@@ -1,5 +1,3 @@
-console.log("hello world");
-
 var prob, sampleSize, calcButton, inputProb, inputSamplesize, calculatingText, currentlyAppended;
 
 calcButton = document.getElementById("calc_button").addEventListener("click",onCalcButtonCLicked);
